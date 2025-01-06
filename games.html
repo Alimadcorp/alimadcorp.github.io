@@ -3,24 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alimad</title>
+  <title>Alimad - Game Development</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <canvas id="bgCanvas"></canvas> <!-- Added canvas for background shapes -->
-
   <div class="header">
     <h2>Alimad Co</h2>
     <div class="topnav" id="myTopnav">
-      <a href="index.html" class="active">Home</a>
+      <a href="index.html">Home</a>
       <div class="dropdown">
         <button class="dropbtn">Services 
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="games.html">Game Development</a>
+          <a href="games.html" class="active">Game Development</a>
           <a href="cgi.html">CGI & Graphics</a>
         </div>
       </div> 
@@ -52,15 +50,20 @@
   </div>
 
   <div class="container">
-    <h1 class="intro-text">Hi, I'm Muhammad Ali</h1>
-  </div>
-  <div class="welcome-text" id="welcomeText">Click to view more!</div>
-
-  <div class="footer">
-    <a href="https://alimad.itch.io">Games</a>
-    <a href="https://youtube.com/@alimadco">YouTube</a>
-    <a href="https://discord.com/invite/fY4Q8rKsz4">Discord</a>
-    <a href="https://twitch.tv/alimadco">Twitch</a>
+    <h1>Game Development</h1>
+    <div class="game-list">
+      <div class="game-item">
+        <a href="https://alimad.itch.io/game1"><img src="game1.jpg" alt="Game 1"></a>
+        <h3>Game 1 Title</h3>
+        <p>Description of Game 1.</p>
+      </div>
+      <div class="game-item">
+        <a href="https://alimad.itch.io/game2"><img src="game2.jpg" alt="Game 2"></a>
+        <h3>Game 2 Title</h3>
+        <p>Description of Game 2.</p>
+      </div>
+      <!-- Add more game items as needed -->
+    </div>
   </div>
   
   <script src="script.js" defer></script>
